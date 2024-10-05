@@ -1,0 +1,24 @@
+Homework 0
+1. The intended platform for the final project is iOS, but we will be 
+relying on Android emulators in order to test our project since 
+my group mates and I use Windows laptops and not Macs. However,
+we will at some later point run our application on a device that 
+uses iOS.
+
+2. As a group we have decided to use the REACT programming language.
+This is due to REACT allowing for both iOS and Android development, 
+in the case that we end up deciding to make changes to which plafrom 
+we want to work with.
+
+3. My group has expressed interest in cross platform development,
+because we would like to use Windows for developing our iOS 
+application. This will require use to test and troubleshoot our 
+application as we are developing it.
+
+4. We decided to use iOS because we all have Apple mobile phones, 
+ and figured it would be best for testing out our project. 
+ We decided to use REACT as our programming language because 
+ we want to make our application for the iOS platform but 
+ we do not all have Apple Mac laptops. We are interested in cross
+ platform development because we are using windows while developing
+ an iOS application. 
