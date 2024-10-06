@@ -11,14 +11,16 @@ in the case that we end up deciding to make changes to which plafrom
 we want to work with.
 
 3. My group has expressed interest in cross platform development,
-because we would like to use Windows for developing our iOS 
-application. This will require use to test and troubleshoot our 
-application as we are developing it.
+which is why we have chosen to use REACT Native/JavaScript. This is 
+perticularly helpful for us becuase we would want to have a iOS 
+application as we all have iOS devices, but not all of us have access
+to a Mac. So, we will develop for cross platform and run our application
+mainly in Android emulators as mentioned above. 
 
-4. We decided to use iOS because we all have Apple mobile phones, 
- and figured it would be best for testing out our project. 
+4. We want to develop for iOS because we all have Apple mobile phones.
  We decided to use REACT as our programming language because 
  we want to make our application for the iOS platform but 
  we do not all have Apple Mac laptops. We are interested in cross
- platform development because we are using windows while developing
- an iOS application. 
+ platform development because we are using windows to develop and will
+ be using an Android emulator to test our application with the eventual 
+ goal to run it on iOS as well. 
