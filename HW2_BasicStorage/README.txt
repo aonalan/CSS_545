@@ -25,8 +25,12 @@
         the user can use. 
 
         Cons: Cross platform compatibility is lacking. This method may not always behave the same
-        between Android and iOS. This is a big one because we intetend to develop our app with 
+        between Android and iOS. This is a big one because we interned to develop our app with 
         cross compatibility in mind. 
     react-native-fs
-        Pros:
-        Cons:
+        Pros: Offers flexibility, allows for storage of various data types. This could be useful
+        for our application. Generally speaking has no file size limitations.
+
+        Cons: Management of the file system input/output could be more complex. No structure so 
+        you have to manually organize and parse your stored data. This increases code complexity
+        and I do not think we could go this way for our application.   
