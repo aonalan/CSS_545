@@ -1,5 +1,9 @@
-// npm install react-native-fs @react-native-async-storage/async-storage react-native-image-picker
-// 
+/*  I used the following dependencies: 
+      npm install react-native-image-picker
+      npm install react-native-fs
+      npm install @react-native-async-storage/async-storage
+ */
+
 
 import React, { useState, useEffect } from 'react';
 import { View, Button, Text, Image, TextInput, StyleSheet } from 'react-native';

@@ -3,7 +3,7 @@
     These include AsyncStorage, SQLite, Realm, and using react-native-fs. AsyncStorage is a key-value 
     storage system. SQLite uses a embedded relational database. Realm is another database storage system 
     but that has more of a object oriented approach to managing data. Using react-native-fs allows
-    you to write files directly to the devices's file system. 
+    you to write files directly to the devices's file system.  
 
 (5 Points) Pros AND cons of each approach for your project
     AsyncStorage
