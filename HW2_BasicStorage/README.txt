@@ -7,11 +7,11 @@
 
 (5 Points) Pros AND cons of each approach for your project
     AsyncStorage
-        Pros: Ease to use, data persists after restart could be good for storing user
-        setting, and has a consistent behavior between iOS and Android platforms which can be useful 
+        Pros: Easy to use, data persists after restart (could be good for storing user
+        setting), and has a consistent behavior between iOS and Android platforms which can be useful 
         if we get to the point of running the app on iOS as well as in Android emulators. 
 
-        Cons: Can not handle large sums of data. Does not support structured 
+        Cons: Cannot handle large sums of data. Does not support structured 
         data retrieval (like database queries).
     SQLite
         Pros: Can be good for retrieving a list of timers with relationships. Has support for 
