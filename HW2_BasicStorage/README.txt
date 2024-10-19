@@ -24,7 +24,9 @@
         devices, which could be useful for us if we want to support having multiple devices that
         the user can use. 
 
-        Cons: 
+        Cons: Cross platform compatibility is lacking. This method may not always behave the same
+        between Android and iOS. This is a big one because we intetend to develop our app with 
+        cross compatibility in mind. 
     react-native-fs
         Pros:
         Cons:
