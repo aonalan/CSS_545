@@ -21,3 +21,40 @@ HW3 - State Management
 
 (5 Points) The various states that you must consider for your app, why you must
  consider it, and what must happen in each state
+
+    For our app specifically we must consider the following states as mentioned above:
+
+    Foreground:
+        Why Consider: This is when the user is interacting directly with the timer/application.
+
+        What Must Happen: Should display the timer and countdown. Should allow users 
+        to start, pause, or reset the timer.
+    
+    Inactive:
+        Why Consider: If the user switches applications temporarily, the app 
+        should retain the current state of the timer.
+
+        What Must Happen: The timer should continue counting down in the background without any 
+        interruption. The app should save the timer’s state and handle being resumed. 
+    
+    Background:
+        Why Consider: Again, the timer should continue running even when the user is not 
+        actively using the application.
+
+        What Must Happen: We must maintain the countdown and use background services (or notifications) to 
+        handle the timer in this state. We must ensure that the application is able to send notification
+        or sound an alarm when the timer runs out while the application is in the background. 
+    
+    Suspended:
+        Why Consider: The application could be suspended if resources are limited. 
+
+        What Must Happen: We must save the current timer state before suspension occurs. Then when the user
+        returns to the application, we can resume. Ideally if possible, we would continue the timer 
+        through a background process. 
+
+    Terminated:
+        Why Consider: If the application is terminated timer progress will be lost unless saved.
+
+        What Must Happen: Periodically save the timer state so that it could persist across sessions 
+        if we want to. When the application reopens we can check to see if the timer should still be
+        running or not and resume it if it should still be active. 
