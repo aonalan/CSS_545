@@ -1,3 +1,6 @@
+// dependencies to install:
+// npm install @react-native-async-storage/async-storage
+
 import React, { useEffect, useState } from 'react';
 import { View, Text, TextInput, AppState } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
